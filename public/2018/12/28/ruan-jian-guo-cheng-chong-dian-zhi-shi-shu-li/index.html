@@ -1,0 +1,888 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    
+
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="软件过程重点知识梳理, 湖南大学-杜敏">
+    <meta name="description" content="高级软件开发过程重点知识1. 绪论
+软件过程定义：从软件需求定义开始到软件废弃为止，跨越整个生命周期内的系统开发、运行、维护等全部活动及其相关项的总和。
+软件发展三阶段：程序设计、软件工程、软件过程
+软件过程能力评估标准和改进方案：CMM,">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>软件过程重点知识梳理 | 湖南大学-杜敏</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+
+</head>
+
+<body>
+
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">湖南大学-杜敏</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>主页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">湖南大学-杜敏</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                主页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/ZSCDumin/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link"><a href="https://github.com/ZSCDumin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:2712220318@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 2712220318" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/ZSCDumin/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        软件过程重点知识梳理
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/软件开发过程/" target="_blank">
+                    <span class="chip bg-color">软件开发过程</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2018-12-28
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="高级软件开发过程重点知识"><a href="#高级软件开发过程重点知识" class="headerlink" title="高级软件开发过程重点知识"></a>高级软件开发过程重点知识</h1><h2 id="1-绪论"><a href="#1-绪论" class="headerlink" title="1. 绪论"></a>1. 绪论</h2><ul>
+<li><strong>软件过程定义</strong>：从软件需求定义开始到软件废弃为止，跨越整个生命周期内的系统开发、运行、维护等全部活动及其相关项的总和。</li>
+<li><strong>软件发展三阶段</strong>：程序设计、软件工程、软件过程</li>
+<li><strong>软件过程能力评估标准和改进方案</strong>：CMM, ISO, 6 西格玛</li>
+<li><strong>生命周期模型</strong>：瀑布模型、原型模型、螺旋模型、喷泉模型</li>
+<li><strong>软件过程与软件工程的关系</strong>：包含关系</li>
+<li><strong>软件过程模式的意义</strong>：<ul>
+<li>四要素</li>
+<li>快速把握软件过程的本质、原则、规范、特点、策略等</li>
+<li>分析优缺点</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-Rational-统一开发过程"><a href="#2-Rational-统一开发过程" class="headerlink" title="2. Rational 统一开发过程"></a>2. Rational 统一开发过程</h2><ul>
+<li><strong>三大特点</strong>：<ul>
+<li>用力驱动</li>
+<li>以架构为中心</li>
+<li>迭代与增量</li>
+</ul>
+</li>
+<li>工作流程不仅仅指活动，还表明了角色、活动、工件是一个逻辑整体。</li>
+<li><p><strong>RUP 二维结构图</strong><br><img src="https://pic002.cnblogs.com/images/2012/444673/2012091916323986.png" alt="RUP"></p>
+<ul>
+<li>静态特征：纵轴的内容组织</li>
+<li>动态特征：横轴的时间组织</li>
+<li>RUP 独特的地方<ul>
+<li>并行化</li>
+<li>阶段内部迭代</li>
+<li>工作流中多出的几个新的概念</li>
+<li>明确的里程碑</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>九大核心工作流程</strong></p>
+<ul>
+<li>核心过程<ul>
+<li>业务建模</li>
+<li>需求</li>
+<li>分析设计</li>
+<li>实施</li>
+<li>测试</li>
+<li>部署</li>
+</ul>
+</li>
+<li>核心支持<ul>
+<li>配置、变更管理</li>
+<li>项目管理</li>
+<li>环境</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>工件</strong>：模型、元素、文档、源代码、可执行文件、工具等。</li>
+<li><p><strong>四阶段</strong>：</p>
+<ul>
+<li>先启（目标）</li>
+<li>精化（架构）</li>
+<li>构建（初始化、产品是否稳定、迭代次数最多）</li>
+<li>产品化（产品发布、用户是否满意）</li>
+</ul>
+</li>
+<li><p><strong>五大角色</strong></p>
+<ul>
+<li>分析员</li>
+<li>开发人员</li>
+<li>测试员</li>
+<li>经理</li>
+<li>其他角色</li>
+</ul>
+</li>
+<li><p><strong>角色的意义</strong>（两步走）：</p>
+<ul>
+<li>迭代计划时，确定角色</li>
+<li>人员计划时，考虑个体的技能特长，分配角色</li>
+</ul>
+</li>
+<li><strong>角色方面的缺陷</strong>：未给出角色的组织管理方式、角色之间的地位和交互关系。</li>
+<li><strong>用例的缺点及其解决方法</strong>：非功能性需求表现不足，可用补充说明文档解决。</li>
+<li><p><strong>架构视图</strong>：</p>
+<ul>
+<li>用例模型视图</li>
+<li>分析模型视图</li>
+<li>设计模型视图</li>
+<li>实施模型视图</li>
+<li>实现模型视图</li>
+<li>补充【<strong>架构必须留有复用和进化空间</strong>】</li>
+</ul>
+</li>
+<li><p><strong>RUP 的优点</strong></p>
+<ul>
+<li>二维迭代，有利于降低风险，适应新需求</li>
+<li>可配置，具有通用性</li>
+<li>包含四要素的详尽的阐述</li>
+<li>有现成的使用工具，具有操作性、可实现性</li>
+</ul>
+</li>
+<li><p><strong>RUP 的缺点</strong></p>
+<ul>
+<li>四要素关系及其优先级未给出</li>
+<li>生命周期各元素的关旭和优先级未给出</li>
+<li>人员之间的优先级和协作方式未给出</li>
+<li>产品和方法之间的优先级未给出</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-敏捷开发过程"><a href="#3-敏捷开发过程" class="headerlink" title="3. 敏捷开发过程"></a>3. 敏捷开发过程</h2><ul>
+<li><p><strong>4 条基本价值观</strong></p>
+<ul>
+<li>个体和交互胜过过程和工具（人员、生命周期、方法）</li>
+<li>可以工作的软件胜过面面俱到的文档（产品）</li>
+<li>客户合作胜过合同谈判（人员）</li>
+<li>响应变化胜过遵循计划（方法）</li>
+</ul>
+</li>
+<li><p><strong>12 条基本原则</strong><br>1、我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。<br>2、欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。<br>3、要不断交付可用的软件，周期从几周到几个月不等，且越短越好。<br>4、项目过程中，业务人员与开发人员必须在一起工作。<br>5、要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。<br>6、无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。<br>7、可用的软件是衡量进度的主要指标。<br>8、敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。<br>9、对技术的精益求精以及对设计的不断完善将提升敏捷性。<br>10、要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。<br>11、最佳的架构、需求和设计出自于自组织的团队。<br>12、团队要定期反省如何能够做到更有效，并相应地调整团队的行为。</p>
+<ul>
+<li>分类：<ul>
+<li>生命周期(1,3,7,8)</li>
+<li>人员(4,5,6,11,12)</li>
+<li>产品(无)</li>
+<li>方法(2,9,10)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>计划游戏（制定细致度逐渐降低的计划）</p>
+</li>
+<li>持续集成</li>
+<li>结对编程</li>
+<li>隐喻（全局视图、未来影像）</li>
+</ul>
+<h2 id="4-微软开发过程"><a href="#4-微软开发过程" class="headerlink" title="4. 微软开发过程"></a>4. 微软开发过程</h2><ul>
+<li><p><strong>术语</strong></p>
+<ul>
+<li>项目前景与项目范围</li>
+<li>功能说明书</li>
+<li>程序经理</li>
+</ul>
+</li>
+<li><p><strong>过程原则</strong></p>
+<ul>
+<li>制定计划时兼顾未来的不确定因素</li>
+<li>通过有效的风险管理减少不确定因素的影响</li>
+<li>经常生成过度版本，并进行快速测试来提高产品的稳定性和可预测性</li>
+<li>快速循环、递进的开发过程</li>
+<li>从产品特性和成本能控制出发创造性的工作</li>
+<li>创建确定的进度表</li>
+<li>使用小型项目组并发的完成工作，并设置多个同步点</li>
+<li>将大型项目分解为多个可管理的单元，以便快速的发布产品</li>
+<li>用产品的前景目标和概要说明指导项目开发工作——先基线化，后冻结</li>
+<li>避免产品走形</li>
+<li>使用原型验证概念，进行开发前的测试</li>
+<li>零缺陷观念</li>
+<li>非责难式的里程碑评审会</li>
+</ul>
+</li>
+<li><p><strong>组队原则</strong></p>
+<ul>
+<li>小型的、多元化的项目组</li>
+<li>角色依赖、职责共享</li>
+<li>专深的技术水平和业务技能</li>
+<li>以产品发布为中心</li>
+<li>明确的目标</li>
+<li>客户的主动参与</li>
+<li>分享产品的前景</li>
+<li>所有人都参与设计</li>
+<li>认真从过去的项目中吸取经验</li>
+<li>共同管理、共同决策</li>
+<li>项目组成员在同一地点办公</li>
+<li>大型项目组也像小型项目组那样运作</li>
+</ul>
+</li>
+<li><p><strong>微软过程生命周期</strong></p>
+<blockquote>
+<p>相当于 RUP 的生命周期的精简版，但是微软生命周期的特色在于其每个阶段设置的缓冲时间</p>
+</blockquote>
+<ul>
+<li>构想（先启）</li>
+<li>计划（精化）</li>
+<li>开发（精化）</li>
+<li>稳定（构建）</li>
+<li>发布（产品化）</li>
+</ul>
+</li>
+<li><p><strong>微软角色划分</strong></p>
+<blockquote>
+<p>以前的项目经理被拆分为产品经理和程序经理，因为这项目经理往往身兼两个角色，而这两个角色之间存在着矛盾。</p>
+</blockquote>
+<ul>
+<li>产品经理</li>
+<li>程序经理</li>
+<li>开发工程师</li>
+<li>测试工程师</li>
+<li>用户体验人员</li>
+<li>发布管理人员</li>
+</ul>
+</li>
+<li><p><strong>角色间的关系</strong></p>
+<ul>
+<li>对等</li>
+<li>相互协作的方式是交流和沟通</li>
+</ul>
+<p><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymjksrsvlj30k40jbatu.jpg" alt="微软项目结构"></p>
+</li>
+<li><p><strong>角色合并原则</strong></p>
+<ul>
+<li>开发人员不能兼任其他角色</li>
+<li>不能试图合并两个有明显利益冲突或制约关系的职能角色</li>
+</ul>
+<p><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymjbpk5g0j30vj0eynmf.jpg" alt="微软组对合并原则"></p>
+</li>
+<li><p><strong>角色合并结论</strong></p>
+<ul>
+<li>最小的项目组需要 3 个成员：产品经理、程序经理、开发工程师</li>
+</ul>
+</li>
+<li><p><strong>微软均衡三角形</strong></p>
+<blockquote>
+<p>结论：四要素之间相互制约，任何一条边的改变都会对剩余的边造成影响。</p>
+</blockquote>
+<p><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymj353schj30bd0a10w8.jpg" alt="均衡三角形"></p>
+</li>
+<li><p><strong>微软项目均衡矩阵</strong><br><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymjf48wkyj30vj0m17wh.jpg" alt="项目均衡矩阵"></p>
+<ul>
+<li>执行方法</li>
+</ul>
+<p><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymjifl64rj30xz0d14ee.jpg" alt="执行"></p>
+</li>
+<li><p><strong>RUP/AP/微软过程的关系</strong></p>
+<blockquote>
+<p>三者相互交叉、相互重叠，又相互区别互不包含</p>
+</blockquote>
+<p><img src="https://ws1.sinaimg.cn/large/006wCagogy1fymjjm74dxj30p00dlara.jpg" alt="三者之间的关系"></p>
+</li>
+<li><p><strong>微软每日编译生成机制</strong></p>
+</li>
+</ul>
+
+            </div>
+            <hr>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://zscdumin.github.io" class="b-link-green">湖南大学-杜敏</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/12/28/ruan-jian-guo-cheng-chong-dian-zhi-shi-shu-li/" class="b-link-green">软件过程重点知识梳理</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/2019/01/01/suan-fa-fen-xi-yu-she-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="算法分析与设计">
+                        
+                        <span class="card-title">算法分析与设计</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">第一章
+最大公约数算法：
+gcd(m, n) = gcd(n, m mod n)
+结束条件是 m%n = 0
+
+
+
+第二章
+算法时间效率度量 —— 基本操作的执行次数。
+渐进符号（可以按照复杂程度记忆，最简单的为上界，最复杂的为下界）
+斐波</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            杜敏
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/算法/" target="_blank">
+                        <span class="chip bg-color">算法</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/2018/12/24/hu-nan-da-xue-gong-cheng-shu-xue-shi-ti/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="湖南大学工程数学试题">
+                        
+                        <span class="card-title">湖南大学工程数学试题</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">1. 第一套
+2. 第二套
+</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            杜敏
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/试卷/" target="_blank">
+                        <span class="chip bg-color">试卷</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+    
+
+</main>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://ZSCDumin.github.io/" target="_blank">杜敏</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 采用
+            <a href="https://github.com/ZSCDumin/hexo-theme-matery" target="_blank">HEXO</a>的主题搭建.
+        </div>
+        <div class="col s12 m4 l4 social-link"><a href="https://github.com/ZSCDumin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:2712220318@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 2712220318" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+    </div>
+</footer>
+<div class="progress-bar"></div>
+
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

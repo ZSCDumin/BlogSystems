@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>湖南大学-杜敏</title>
+  
+  <subtitle>个人博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zscdumin.github.io/"/>
+  <updated>2019-04-14T11:12:03.580Z</updated>
+  <id>https://zscdumin.github.io/</id>
+  
+  <author>
+    <name>杜敏</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>推荐系统十大挑战</title>
+    <link href="https://zscdumin.github.io/2019/04/14/tui-jian-xi-tong-shi-da-tiao-zhan/"/>
+    <id>https://zscdumin.github.io/2019/04/14/tui-jian-xi-tong-shi-da-tiao-zhan/</id>
+    <published>2019-04-14T10:51:29.000Z</published>
+    <updated>2019-04-14T11:12:03.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;推荐系统十大挑战&quot;&gt;&lt;a href=&quot;#推荐系统十大挑战&quot; class=&quot;headerlink&quot; title=&quot;推荐系统十大挑战&quot;&gt;&lt;/a&gt;推荐系统十大挑战&lt;/h1&gt;&lt;h2 id=&quot;挑战一：数据稀疏性问题&quot;&gt;&lt;a href=&quot;#挑战一：数据稀疏性问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="推荐系统" scheme="https://zscdumin.github.io/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shadowsocks使用教程</title>
+    <link href="https://zscdumin.github.io/2019/04/13/shadowsocks-shi-yong-jiao-cheng/"/>
+    <id>https://zscdumin.github.io/2019/04/13/shadowsocks-shi-yong-jiao-cheng/</id>
+    <published>2019-04-13T09:03:03.000Z</published>
+    <updated>2019-04-13T09:19:21.231Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Shadowsocks-翻墙使用教程-适用于-Windows-和-Android-版&quot;&gt;&lt;a href=&quot;#Shadowsocks-翻墙使用教程-适用于-Windows-和-Android-版&quot; class=&quot;headerlink&quot; title=&quot;Shadowsocks 翻墙使用教程(适用于 Windows 和 Android 版)&quot;&gt;&lt;/a&gt;Shadowsocks
+        
+      
+    
+    </summary>
+    
+    
+      <category term="翻墙" scheme="https://zscdumin.github.io/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人健康技术</title>
+    <link href="https://zscdumin.github.io/2019/04/06/ge-ren-jian-kang-ji-zhu/"/>
+    <id>https://zscdumin.github.io/2019/04/06/ge-ren-jian-kang-ji-zhu/</id>
+    <published>2019-04-06T06:45:21.000Z</published>
+    <updated>2019-04-06T06:47:52.826Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;个人健康技术-PPT&quot;&gt;&lt;a href=&quot;#个人健康技术-PPT&quot; class=&quot;headerlink&quot; title=&quot;个人健康技术 PPT&quot;&gt;&lt;/a&gt;个人健康技术 PPT&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/0061Dw64gy1g1swsqgd6gj30zk0k03yn.jpg&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件产品线" scheme="https://zscdumin.github.io/tags/%E8%BD%AF%E4%BB%B6%E4%BA%A7%E5%93%81%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>超新星发现</title>
+    <link href="https://zscdumin.github.io/2019/03/20/chao-xin-xing-fa-xian/"/>
+    <id>https://zscdumin.github.io/2019/03/20/chao-xin-xing-fa-xian/</id>
+    <published>2019-03-20T12:33:13.000Z</published>
+    <updated>2019-03-22T03:33:06.970Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;2019-未来杯高校-AI-挑战赛-gt-图像-发现超新星&quot;&gt;&lt;a href=&quot;#2019-未来杯高校-AI-挑战赛-gt-图像-发现超新星&quot; class=&quot;headerlink&quot; title=&quot;2019 未来杯高校 AI 挑战赛 &amp;gt; 图像-发现超新星&quot;&gt;&lt;/a&gt;2019 未来杯高校 AI 挑战赛 &amp;gt; 图像-发现超新星&lt;/h1&gt;&lt;h2 id=&quot;1-任务目标&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="比赛" scheme="https://zscdumin.github.io/tags/%E6%AF%94%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推荐系统系列论文整理</title>
+    <link href="https://zscdumin.github.io/2019/03/14/tui-jian-xi-tong-lun-wen-zheng-li/"/>
+    <id>https://zscdumin.github.io/2019/03/14/tui-jian-xi-tong-lun-wen-zheng-li/</id>
+    <published>2019-03-14T07:38:49.000Z</published>
+    <updated>2019-03-15T12:41:53.863Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006wCagogy1g13rfoi86dj30zk0k0t9c.jpg&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006wCagogy1g13rfohdnxj30zk0k074r.jpg&quot; alt=&quot;2&quot;&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="推荐系统" scheme="https://zscdumin.github.io/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Graph Neural Networks for Social Recommendation</title>
+    <link href="https://zscdumin.github.io/2019/03/13/graph-neural-networks-for-social-recommendation/"/>
+    <id>https://zscdumin.github.io/2019/03/13/graph-neural-networks-for-social-recommendation/</id>
+    <published>2019-03-13T07:16:40.000Z</published>
+    <updated>2019-03-14T07:37:39.056Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Graph-Neural-Networks-for-Social-Recommendation&quot;&gt;&lt;a href=&quot;#Graph-Neural-Networks-for-Social-Recommendation&quot; class=&quot;headerlink&quot; title=&quot;Graph Neural Networks for Social
+        
+      
+    
+    </summary>
+    
+    
+      <category term="图神经网络" scheme="https://zscdumin.github.io/tags/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019消费者人群画像—信用智能评分竞赛</title>
+    <link href="https://zscdumin.github.io/2019/03/12/2019-xiao-fei-zhe-ren-qun-hua-xiang-xin-yong-zhi-neng-ping-fen-jing-sai/"/>
+    <id>https://zscdumin.github.io/2019/03/12/2019-xiao-fei-zhe-ren-qun-hua-xiang-xin-yong-zhi-neng-ping-fen-jing-sai/</id>
+    <published>2019-03-12T10:39:30.000Z</published>
+    <updated>2019-03-15T12:41:07.482Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;消费者人群画像—信用智能评分竞赛&quot;&gt;&lt;a href=&quot;#消费者人群画像—信用智能评分竞赛&quot; class=&quot;headerlink&quot; title=&quot;消费者人群画像—信用智能评分竞赛&quot;&gt;&lt;/a&gt;消费者人群画像—信用智能评分竞赛&lt;/h1&gt;&lt;h2 id=&quot;1-比赛介绍&quot;&gt;&lt;a href=&quot;#1-比赛介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 比赛介绍&quot;&gt;&lt;/a&gt;1.
+        
+      
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://zscdumin.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HyperOptSklearn调参</title>
+    <link href="https://zscdumin.github.io/2019/03/12/hyperoptsklearn-diao-can/"/>
+    <id>https://zscdumin.github.io/2019/03/12/hyperoptsklearn-diao-can/</id>
+    <published>2019-03-12T10:37:45.000Z</published>
+    <updated>2019-03-12T10:45:20.140Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-机器学习调参工具之HyperOptSklearn&quot;&gt;&lt;a href=&quot;#1-机器学习调参工具之HyperOptSklearn&quot; class=&quot;headerlink&quot; title=&quot;1. 机器学习调参工具之HyperOptSklearn&quot;&gt;&lt;/a&gt;1. 机器学习调参工具之HyperOptSklearn&lt;/h1&gt;&lt;h2 id=&quot;1-1-示例代码：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://zscdumin.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HyperOpt调参</title>
+    <link href="https://zscdumin.github.io/2019/03/12/hyperopt-diao-can/"/>
+    <id>https://zscdumin.github.io/2019/03/12/hyperopt-diao-can/</id>
+    <published>2019-03-12T10:37:21.000Z</published>
+    <updated>2019-03-12T10:43:27.646Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-机器学习调参工具之HyperOpt&quot;&gt;&lt;a href=&quot;#1-机器学习调参工具之HyperOpt&quot; class=&quot;headerlink&quot; title=&quot;1. 机器学习调参工具之HyperOpt&quot;&gt;&lt;/a&gt;1. 机器学习调参工具之HyperOpt&lt;/h1&gt;&lt;h2 id=&quot;1-1-示例代码：&quot;&gt;&lt;a href=&quot;#1-1-示例代码：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://zscdumin.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tensorflow学习笔记</title>
+    <link href="https://zscdumin.github.io/2019/02/20/tensorflow-xue-xi-bi-ji/"/>
+    <id>https://zscdumin.github.io/2019/02/20/tensorflow-xue-xi-bi-ji/</id>
+    <published>2019-02-20T09:20:42.000Z</published>
+    <updated>2019-02-20T09:24:23.730Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Tensorflow-学习笔记&quot;&gt;&lt;a href=&quot;#Tensorflow-学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Tensorflow 学习笔记&quot;&gt;&lt;/a&gt;Tensorflow 学习笔记&lt;/h1&gt;&lt;h2 id=&quot;1-设置tensorflow输出日志级别&quot;&gt;&lt;a href=&quot;#1-设置tensorflow输出日志级别&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Tensorflow" scheme="https://zscdumin.github.io/tags/Tensorflow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GNN论文列表</title>
+    <link href="https://zscdumin.github.io/2019/02/15/gnn-lun-wen-lie-biao/"/>
+    <id>https://zscdumin.github.io/2019/02/15/gnn-lun-wen-lie-biao/</id>
+    <published>2019-02-15T12:36:20.000Z</published>
+    <updated>2019-02-15T12:39:15.307Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Must-read-papers-on-GNN&quot;&gt;&lt;a href=&quot;#Must-read-papers-on-GNN&quot; class=&quot;headerlink&quot; title=&quot;Must-read papers on GNN&quot;&gt;&lt;/a&gt;Must-read papers on GNN&lt;/h2&gt;&lt;p&gt;GNN: graph neural network&lt;/p&gt;
+&lt;p&gt;Contributed
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GNN" scheme="https://zscdumin.github.io/tags/GNN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工程数学笔记</title>
+    <link href="https://zscdumin.github.io/2019/01/18/gong-cheng-shu-xue-bi-ji/"/>
+    <id>https://zscdumin.github.io/2019/01/18/gong-cheng-shu-xue-bi-ji/</id>
+    <published>2019-01-18T03:22:25.000Z</published>
+    <updated>2019-01-18T12:24:59.452Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;数值计算笔记&quot;&gt;&lt;a href=&quot;#数值计算笔记&quot; class=&quot;headerlink&quot; title=&quot;数值计算笔记&quot;&gt;&lt;/a&gt;数值计算笔记&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/01/18/5c41bbb523a79.jpg&quot; alt=&quot;微信图片_201901181119471.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数学" scheme="https://zscdumin.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法分析与设计</title>
+    <link href="https://zscdumin.github.io/2019/01/01/suan-fa-fen-xi-yu-she-ji/"/>
+    <id>https://zscdumin.github.io/2019/01/01/suan-fa-fen-xi-yu-she-ji/</id>
+    <published>2019-01-01T02:17:01.000Z</published>
+    <updated>2019-01-02T09:27:20.440Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;最大公约数算法&lt;/strong&gt;：&lt;ul&gt;
+&lt;li&gt;gcd(m, n) = gcd(n, m mod n)&lt;/li&gt;
+&lt;li&gt;结束条件是 m%n = 0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://zscdumin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件过程重点知识梳理</title>
+    <link href="https://zscdumin.github.io/2018/12/28/ruan-jian-guo-cheng-chong-dian-zhi-shi-shu-li/"/>
+    <id>https://zscdumin.github.io/2018/12/28/ruan-jian-guo-cheng-chong-dian-zhi-shi-shu-li/</id>
+    <published>2018-12-28T00:52:02.000Z</published>
+    <updated>2018-12-28T08:50:01.994Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;高级软件开发过程重点知识&quot;&gt;&lt;a href=&quot;#高级软件开发过程重点知识&quot; class=&quot;headerlink&quot; title=&quot;高级软件开发过程重点知识&quot;&gt;&lt;/a&gt;高级软件开发过程重点知识&lt;/h1&gt;&lt;h2 id=&quot;1-绪论&quot;&gt;&lt;a href=&quot;#1-绪论&quot; class=&quot;headerlink&quot; title=&quot;1. 绪论&quot;&gt;&lt;/a&gt;1.
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件开发过程" scheme="https://zscdumin.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>湖南大学工程数学试题</title>
+    <link href="https://zscdumin.github.io/2018/12/24/hu-nan-da-xue-gong-cheng-shu-xue-shi-ti/"/>
+    <id>https://zscdumin.github.io/2018/12/24/hu-nan-da-xue-gong-cheng-shu-xue-shi-ti/</id>
+    <published>2018-12-24T01:59:02.000Z</published>
+    <updated>2018-12-24T02:04:40.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-第一套&quot;&gt;&lt;a href=&quot;#1-第一套&quot; class=&quot;headerlink&quot; title=&quot;1. 第一套&quot;&gt;&lt;/a&gt;1. 第一套&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006wCagogy1fyhlgl7pkoj30qe0eu7c3.jpg&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="试卷" scheme="https://zscdumin.github.io/tags/%E8%AF%95%E5%8D%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最优二叉查找树</title>
+    <link href="https://zscdumin.github.io/2018/12/23/zui-you-er-cha-cha-zhao-shu/"/>
+    <id>https://zscdumin.github.io/2018/12/23/zui-you-er-cha-cha-zhao-shu/</id>
+    <published>2018-12-23T09:07:22.000Z</published>
+    <updated>2018-12-23T09:20:26.800Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;最优二叉查找树（动态规划）&quot;&gt;&lt;a href=&quot;#最优二叉查找树（动态规划）&quot; class=&quot;headerlink&quot; title=&quot;最优二叉查找树（动态规划）&quot;&gt;&lt;/a&gt;最优二叉查找树（动态规划）&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;_参考文章_&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://zscdumin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模式匹配算法</title>
+    <link href="https://zscdumin.github.io/2018/12/23/mo-shi-pi-pei-suan-fa/"/>
+    <id>https://zscdumin.github.io/2018/12/23/mo-shi-pi-pei-suan-fa/</id>
+    <published>2018-12-23T02:30:32.000Z</published>
+    <updated>2019-01-02T13:36:10.355Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Horspool-算法&quot;&gt;&lt;a href=&quot;#Horspool-算法&quot; class=&quot;headerlink&quot; title=&quot;Horspool 算法&quot;&gt;&lt;/a&gt;Horspool 算法&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;_参考文章_&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://zscdumin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>堆排序算法</title>
+    <link href="https://zscdumin.github.io/2018/12/22/dui-pai-xu-suan-fa/"/>
+    <id>https://zscdumin.github.io/2018/12/22/dui-pai-xu-suan-fa/</id>
+    <published>2018-12-22T11:33:30.000Z</published>
+    <updated>2018-12-22T12:09:13.395Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-堆排序&quot;&gt;&lt;a href=&quot;#1-堆排序&quot; class=&quot;headerlink&quot; title=&quot;1. 堆排序&quot;&gt;&lt;/a&gt;1. 堆排序&lt;/h1&gt;&lt;h2 id=&quot;1-1-堆的定义&quot;&gt;&lt;a href=&quot;#1-1-堆的定义&quot; class=&quot;headerlink&quot; title=&quot;1.1 堆的定义&quot;&gt;&lt;/a&gt;1.1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://zscdumin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速排序算法图解</title>
+    <link href="https://zscdumin.github.io/2018/12/22/kuai-su-pai-xu-suan-fa-tu-jie/"/>
+    <id>https://zscdumin.github.io/2018/12/22/kuai-su-pai-xu-suan-fa-tu-jie/</id>
+    <published>2018-12-22T06:34:48.000Z</published>
+    <updated>2018-12-22T07:12:07.532Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-快速排序（过程图解）&quot;&gt;&lt;a href=&quot;#1-快速排序（过程图解）&quot; class=&quot;headerlink&quot; title=&quot;1.快速排序（过程图解）&quot;&gt;&lt;/a&gt;1.快速排序（过程图解）&lt;/h1&gt;&lt;p&gt;假设我们现在对“6 1 2 7 9 3 4 5 10 8”这个 10
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://zscdumin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>翻墙技术大全</title>
+    <link href="https://zscdumin.github.io/2018/12/21/fan-qiang-ji-zhu-da-quan/"/>
+    <id>https://zscdumin.github.io/2018/12/21/fan-qiang-ji-zhu-da-quan/</id>
+    <published>2018-12-21T02:15:07.000Z</published>
+    <updated>2018-12-21T02:15:30.141Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-翻墙方法合集&quot;&gt;&lt;a href=&quot;#1-翻墙方法合集&quot; class=&quot;headerlink&quot; title=&quot;1.翻墙方法合集&quot;&gt;&lt;/a&gt;1.翻墙方法合集&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;SSR 各版本下载&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SSR windows 版本：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mybatis分页插件的局限性解决方案</title>
+    <link href="https://zscdumin.github.io/2018/12/14/mybatis-fen-ye-cha-jian-de-ju-xian-xing-jie-jue-fang-an/"/>
+    <id>https://zscdumin.github.io/2018/12/14/mybatis-fen-ye-cha-jian-de-ju-xian-xing-jie-jue-fang-an/</id>
+    <published>2018-12-14T04:49:12.000Z</published>
+    <updated>2018-12-14T04:50:07.026Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Java自定义分页工具类&quot;&gt;&lt;a href=&quot;#Java自定义分页工具类&quot; class=&quot;headerlink&quot; title=&quot;Java自定义分页工具类&quot;&gt;&lt;/a&gt;Java自定义分页工具类&lt;/h1&gt;&lt;h2 id=&quot;1、为什么要写这个工具类：&quot;&gt;&lt;a href=&quot;#1、为什么要写这个工具类：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java SpringBoot 分页" scheme="https://zscdumin.github.io/tags/Java-SpringBoot-%E5%88%86%E9%A1%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CCF历年题解</title>
+    <link href="https://zscdumin.github.io/2018/12/06/ccf-li-nian-ti-jie/"/>
+    <id>https://zscdumin.github.io/2018/12/06/ccf-li-nian-ti-jie/</id>
+    <published>2018-12-06T07:44:39.000Z</published>
+    <updated>2018-12-06T08:16:00.950Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;出现次数最多的数&quot;&gt;&lt;a href=&quot;#出现次数最多的数&quot; class=&quot;headerlink&quot; title=&quot;出现次数最多的数&quot;&gt;&lt;/a&gt;出现次数最多的数&lt;/h1&gt;&lt;pre class=&quot;line-numbers language-lang-c&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="CCF c" scheme="https://zscdumin.github.io/tags/CCF-c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>英语翻译作业</title>
+    <link href="https://zscdumin.github.io/2018/12/06/ying-yu-fan-yi-zuo-ye/"/>
+    <id>https://zscdumin.github.io/2018/12/06/ying-yu-fan-yi-zuo-ye/</id>
+    <published>2018-12-06T07:44:39.000Z</published>
+    <updated>2018-12-08T08:11:08.759Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;英语翻译作业&quot;&gt;&lt;a href=&quot;#英语翻译作业&quot; class=&quot;headerlink&quot; title=&quot;英语翻译作业&quot;&gt;&lt;/a&gt;英语翻译作业&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;第一单元&quot;&gt;&lt;a href=&quot;#第一单元&quot; class=&quot;headerlink&quot; title=&quot;第一单元&quot;&gt;&lt;/a&gt;第一单元&lt;/h2&gt;&lt;h3 id=&quot;英翻中&quot;&gt;&lt;a href=&quot;#英翻中&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="英语" scheme="https://zscdumin.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mybatis_sql片段</title>
+    <link href="https://zscdumin.github.io/2018/12/04/mybatis-sql-pian-duan/"/>
+    <id>https://zscdumin.github.io/2018/12/04/mybatis-sql-pian-duan/</id>
+    <published>2018-12-04T07:15:36.000Z</published>
+    <updated>2018-12-04T07:43:45.773Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Mybatis-sql-片段使用&quot;&gt;&lt;a href=&quot;#Mybatis-sql-片段使用&quot; class=&quot;headerlink&quot; title=&quot;Mybatis sql 片段使用&quot;&gt;&lt;/a&gt;Mybatis sql 片段使用&lt;/h1&gt;&lt;h2 id=&quot;1、在-mybatis-中通过使用-SQL-片段可以提高代码的重用性，如下情景：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="mybatis" scheme="https://zscdumin.github.io/tags/mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BIRCH聚类算法</title>
+    <link href="https://zscdumin.github.io/2018/09/09/birch-ju-lei-suan-fa/"/>
+    <id>https://zscdumin.github.io/2018/09/09/birch-ju-lei-suan-fa/</id>
+    <published>2018-09-09T03:39:16.000Z</published>
+    <updated>2018-09-09T04:08:04.070Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;BIRCH聚类算法原理&quot;&gt;&lt;a href=&quot;#BIRCH聚类算法原理&quot; class=&quot;headerlink&quot; title=&quot;BIRCH聚类算法原理&quot;&gt;&lt;/a&gt;BIRCH聚类算法原理&lt;/h1&gt;&lt;h2 id=&quot;1-BIRCH概述&quot;&gt;&lt;a href=&quot;#1-BIRCH概述&quot; class=&quot;headerlink&quot; title=&quot;1. BIRCH概述&quot;&gt;&lt;/a&gt;1.
+        
+      
+    
+    </summary>
+    
+    
+      <category term="大数据经典算法" scheme="https://zscdumin.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apriori算法</title>
+    <link href="https://zscdumin.github.io/2018/08/12/apriori-suan-fa/"/>
+    <id>https://zscdumin.github.io/2018/08/12/apriori-suan-fa/</id>
+    <published>2018-08-12T09:34:56.000Z</published>
+    <updated>2018-11-28T03:21:42.341Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Apriori算法解析&quot;&gt;&lt;a href=&quot;#Apriori算法解析&quot; class=&quot;headerlink&quot; title=&quot;Apriori算法解析&quot;&gt;&lt;/a&gt;Apriori算法解析&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="大数据" scheme="https://zscdumin.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研经验分享</title>
+    <link href="https://zscdumin.github.io/2018/07/14/kao-yan-jing-yan-fen-xiang/"/>
+    <id>https://zscdumin.github.io/2018/07/14/kao-yan-jing-yan-fen-xiang/</id>
+    <published>2018-07-14T10:05:51.000Z</published>
+    <updated>2018-12-02T15:21:19.939Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;2019考研复习书籍推荐-针对数学二&quot;&gt;&lt;a href=&quot;#2019考研复习书籍推荐-针对数学二&quot; class=&quot;headerlink&quot; title=&quot;2019考研复习书籍推荐(针对数学二)&quot;&gt;&lt;/a&gt;2019考研复习书籍推荐(针对数学二)&lt;/h1&gt;&lt;h2 id=&quot;1-政治&quot;&gt;&lt;a href=&quot;#1-政治&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="考研" scheme="https://zscdumin.github.io/categories/%E8%80%83%E7%A0%94/"/>
+    
+    
+      <category term="考研" scheme="https://zscdumin.github.io/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手写数字识别之卷积神经网络版</title>
+    <link href="https://zscdumin.github.io/2018/06/26/shou-xie-shu-zi-shi-bie-zhi-juan-ji-shen-jing-wang-luo-ban/"/>
+    <id>https://zscdumin.github.io/2018/06/26/shou-xie-shu-zi-shi-bie-zhi-juan-ji-shen-jing-wang-luo-ban/</id>
+    <published>2018-06-26T09:14:31.000Z</published>
+    <updated>2018-06-26T09:16:18.705Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;参考代码如下：&quot;&gt;&lt;a href=&quot;#参考代码如下：&quot; class=&quot;headerlink&quot; title=&quot;参考代码如下：&quot;&gt;&lt;/a&gt;参考代码如下：&lt;/h1&gt;&lt;pre class=&quot;line-numbers language-lang-python&quot;&gt;&lt;code class=&quot;language-lang-python&quot;&gt;import numpy
+from
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌翻译函数实现</title>
+    <link href="https://zscdumin.github.io/2018/05/10/gu-ge-fan-yi-han-shu-shi-xian/"/>
+    <id>https://zscdumin.github.io/2018/05/10/gu-ge-fan-yi-han-shu-shi-xian/</id>
+    <published>2018-05-10T02:40:14.000Z</published>
+    <updated>2018-11-28T03:21:04.784Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;谷歌翻译函数实现&quot;&gt;&lt;a href=&quot;#谷歌翻译函数实现&quot; class=&quot;headerlink&quot; title=&quot;谷歌翻译函数实现&quot;&gt;&lt;/a&gt;谷歌翻译函数实现&lt;/h1&gt;&lt;h2 id=&quot;代码如下：&quot;&gt;&lt;a href=&quot;#代码如下：&quot; class=&quot;headerlink&quot; title=&quot;代码如下：&quot;&gt;&lt;/a&gt;代码如下：&lt;/h2&gt;&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据库系统概论</title>
+    <link href="https://zscdumin.github.io/2018/03/28/shu-ju-ku-xi-tong-gai-lun/"/>
+    <id>https://zscdumin.github.io/2018/03/28/shu-ju-ku-xi-tong-gai-lun/</id>
+    <published>2018-03-28T05:09:17.000Z</published>
+    <updated>2018-03-28T05:22:47.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;数据库系统概论复习知识点&quot;&gt;&lt;a href=&quot;#数据库系统概论复习知识点&quot; class=&quot;headerlink&quot; title=&quot;数据库系统概论复习知识点&quot;&gt;&lt;/a&gt;数据库系统概论复习知识点&lt;/h1&gt;&lt;h4 id=&quot;1、数据-数据库-数据库管理系统-数据库系统的概念：&quot;&gt;&lt;a href=&quot;#1、数据-数据库-数据库管理系统-数据库系统的概念：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>爬虫</title>
+    <link href="https://zscdumin.github.io/2018/03/28/pa-chong/"/>
+    <id>https://zscdumin.github.io/2018/03/28/pa-chong/</id>
+    <published>2018-03-28T05:08:05.000Z</published>
+    <updated>2018-03-28T09:51:55.180Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-创建项目&quot;&gt;&lt;a href=&quot;#1-创建项目&quot; class=&quot;headerlink&quot; title=&quot;1.创建项目&quot;&gt;&lt;/a&gt;1.创建项目&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;scrapy startproject p1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2-文件说明：&quot;&gt;&lt;a href=&quot;#2-文件说明：&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+GithubPage制作自己的博客</title>
+    <link href="https://zscdumin.github.io/2018/01/30/hexo-githubpage/"/>
+    <id>https://zscdumin.github.io/2018/01/30/hexo-githubpage/</id>
+    <published>2018-01-30T13:50:20.000Z</published>
+    <updated>2018-01-30T13:51:19.176Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;具体步骤如下：&quot;&gt;&lt;a href=&quot;#具体步骤如下：&quot; class=&quot;headerlink&quot; title=&quot;具体步骤如下：&quot;&gt;&lt;/a&gt;&lt;strong&gt;具体步骤如下&lt;/strong&gt;：&lt;/h2&gt;&lt;h3 id=&quot;1-创建一个文件夹（如Blog&quot;&gt;&lt;a href=&quot;#1-创建一个文件夹（如Blog&quot; class=&quot;headerlink&quot; title=&quot;1.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
