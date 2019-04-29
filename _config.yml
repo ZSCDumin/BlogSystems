@@ -109,6 +109,6 @@ mathjax:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:ZSCDumin/ZSCDumin.github.io.git
+  repository: zscdumin_github:ZSCDumin/ZSCDumin.github.io.git
   branch: master
 
